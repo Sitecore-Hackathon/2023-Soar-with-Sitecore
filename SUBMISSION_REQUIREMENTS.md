@@ -28,9 +28,9 @@ Run this on 1 machine, then commit and push to share the setup with the rest of 
 
 To initiate the local docker development environment setup then follow the instructions found in the updated README.md file or simply run 
 
-    ```ps1
-    .\Start-Environment -LicensePath "C:\path\to\license.xml"
-    ```
+```ps1
+.\Start-Environment -LicensePath "C:\path\to\license.xml"
+```
 
 from an elevated PowerShell terminal and follow the on-screen instructions.
 
