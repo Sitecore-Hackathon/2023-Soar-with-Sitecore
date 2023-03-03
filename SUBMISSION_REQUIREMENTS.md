@@ -1,5 +1,5 @@
 ## 📜Entry Submission Requirements 
-All teams are required to submit the following as part of their entry submission no later than the end of the Hackathon on Saturday March 5th 2022 at 8PM EST. The submitted entries shall be based on [**Sitecore 10.3 XM**](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/103/Sitecore_Experience_Platform_103.aspx).
+All teams are required to submit the following as part of their entry submission no later than the end of the Hackathon on Saturday March 4th 2023 at 8PM EST. The submitted entries shall be based on [**Sitecore 10.3 XM**](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/103/Sitecore_Experience_Platform_103.aspx).
 
 ### IMPORTANT  👀
 > You have to fill in the README.md file found in this repository. Copy in the content of 
