@@ -55,13 +55,11 @@ _Remove this subsection if your entry does not have any prerequisites other than
 > - TDS
 > - Unicorn
  
-f. ex. 
+for example:
 
-1. Start docker environment using `.\Start-Hackathon.ps1`
-2. Open solution in Visual Studio and run build
-3. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-4. ...
-5. profit
+1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
+2. ...
+3. profit
 
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
