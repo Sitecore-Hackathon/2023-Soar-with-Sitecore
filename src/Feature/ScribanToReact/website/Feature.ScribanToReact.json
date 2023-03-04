@@ -1,0 +1,24 @@
+{
+  "Fields": [
+        {
+          "Name": "Title",
+          "Component": "Text",
+          "Field": "Field<string>"
+        },
+        {
+          "Name": "Copy",
+          "Component": "JssRichText",
+          "Field": "Field<string>"
+        },
+        {
+          "Name": "Image",
+          "Component": "JssImage",
+          "Field": "ImageField"
+        },
+        {
+          "Name": "Link",
+          "Component": "JssLink",
+          "Field": "LinkField"
+        }
+  ]
+}
