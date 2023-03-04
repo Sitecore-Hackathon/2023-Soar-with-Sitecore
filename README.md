@@ -78,22 +78,22 @@ _Remove this subsection if your entry does not require any configuration that is
 
 ## Usage instructions
 
-1. Select any item within an SXA Site node in the Content Tree.
+1. Select any item within an SXA Site node in the Content Tree.   
 ![Content Tree](docs/images/fig1-content-tree.PNG?raw=true "Content Tree")
 
-2. Right click and select Scripts > Export Scriban Template.
+2. Right click and select Scripts > Export Scriban Template.    
 ![Content Tree](docs/images/fig2-run-script.PNG?raw=true "Content Tree")
 
-3. A modal will pop up, prompting for a selection of a Scriban Template from the Rendering Variants folder within that context site.
+3. A modal will pop up, prompting for a selection of a Scriban Template from the Rendering Variants folder within that context site.   
 ![Content Tree](docs/images/fig3-export-modal.PNG?raw=true "Content Tree")
 
-4. Navigate to the Scriban Template to Export and click OK.
+4. Navigate to the Scriban Template to Export and click OK.   
 ![Content Tree](docs/images/fig4-export-modal-2.PNG?raw=true "Content Tree")
 
-5. If the selected item is not a Scriban Template, an "Invalid Selection..." message will be shown and the prompt will ask to make another selection.
+5. If the selected item is not a Scriban Template, an "Invalid Selection..." message will be shown and the prompt will ask to make another selection.   
 ![Content Tree](docs/images/fig5-invalid-selection.PNG?raw=true "Content Tree")
 
-6. When the eport is complete a Success message will be shown and the output React .tsx file will be downloaded.
+6. When the export is complete a Success message will be shown and the output React .tsx file will be downloaded.   
 ![Content Tree](docs/images/fig6-success.PNG?raw=true "Content Tree")
 
 ## Comments
