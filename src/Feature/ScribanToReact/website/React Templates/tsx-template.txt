@@ -1,0 +1,27 @@
+import React from 'react';
+import {
+  Image as JssImage,
+  Link as JssLink,
+  RichText as JssRichText,
+  ImageField,
+  Field,
+  LinkField,
+  Text,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+
+interface Fields {
+  [[componentFields]]
+}
+
+type [[componentName]]Props = {
+  fields: Fields;
+};
+
+export const Default = (props: [[componentName]]Props): JSX.Element => {
+  if (props.fields) {
+    return (
+			[[componentMarkup]]
+    );
+  }
+};
+
