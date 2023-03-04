@@ -24,6 +24,7 @@ Best Migration Module to move from XP (traditional) to XM Cloud/Content Hub One/
 The purpose of the "Scriban To React" module is to make the migration from XP to Headless easier.
 This module will allow the end user to select a scriban rendering of their choice and have it 
 automatically convereted to a TypeScript (tsx) file.  
+
 ⟹ Write a clear description of your hackathon entry.  
 
   - Module Purpose
@@ -76,19 +77,24 @@ for example:
 _Remove this subsection if your entry does not require any configuration that is not fully covered in the installation instructions already_
 
 ## Usage instructions
-⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
 
-Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+1. Select any item within an SXA Site node in the Content Tree.
+![Content Tree](docs/images/fig1-content-tree.PNG?raw=true "Content Tree")
 
-![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
+2. Right click and select Scripts > Export Scriban Template.
+![Content Tree](docs/images/fig2-run-script.PNG?raw=true "Content Tree")
 
-You can embed images of different formats too:
+3. A modal will pop up, prompting for a selection of a Scriban Template from the Rendering Variants folder within that context site.
+![Content Tree](docs/images/fig3-export-modal.PNG?raw=true "Content Tree")
 
-![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
+4. Navigate to the Scriban Template to Export and click OK.
+![Content Tree](docs/images/fig4-export-modal-2.PNG?raw=true "Content Tree")
 
-And you can embed external images too:
+5. If the selected item is not a Scriban Template, an "Invalid Selection..." message will be shown and the prompt will ask to make another selection.
+![Content Tree](docs/images/fig5-invalid-selection.PNG?raw=true "Content Tree")
 
-![Random](https://thiscatdoesnotexist.com/)
+6. When the eport is complete a Success message will be shown and the output React .tsx file will be downloaded.
+![Content Tree](docs/images/fig6-success.PNG?raw=true "Content Tree")
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
