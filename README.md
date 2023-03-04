@@ -15,12 +15,15 @@
 You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
 
 ## Team name
-⟹ Write the name of your Hackathon team here
+Soar With Sitecore
 
 ## Category
-⟹ Write the name of the selected category
+Best Migration Module to move from XP (traditional) to XM Cloud/Content Hub One/Headless CMS
 
 ## Description
+The purpose of the "Scriban To React" module is to make the migration from XP to Headless easier.
+This module will allow the end user to select a scriban rendering of their choice and have it 
+automatically convereted to a TypeScript (tsx) file.  
 ⟹ Write a clear description of your hackathon entry.  
 
   - Module Purpose
