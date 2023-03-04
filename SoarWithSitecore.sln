@@ -2,8 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "src\Project\Common\platform\Platform.csproj", "{816F099C-E14B-4468-9E34-87F993C6484D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{196B5D43-B228-4632-9BC3-EAAF79B4EDA5}"
 	ProjectSection(SolutionItems) = preProject
 		nuget.config = nuget.config
@@ -11,45 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{
 		sitecore.json = sitecore.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docker", "_Docker", "{AB6FE59B-1D01-4920-BD03-CD9444EA43CA}"
-	ProjectSection(SolutionItems) = preProject
-		run\sitecore-xm1-sxa\.env = run\sitecore-xm1-sxa\.env
-		run\sitecore-xm1-sxa\docker-compose.override.yml = run\sitecore-xm1-sxa\docker-compose.override.yml
-		run\sitecore-xm1-sxa\docker-compose.yml = run\sitecore-xm1-sxa\docker-compose.yml
-		down.ps1 = down.ps1
-		init.ps1 = init.ps1
-		up.ps1 = up.ps1
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{A72954EE-FC46-4F3D-8537-AE808CA74CA4}"
-	ProjectSection(SolutionItems) = preProject
-		src\Feature\Feature.Folders.module.json = src\Feature\Feature.Folders.module.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F2DFCDDA-F06D-4C97-8884-450BBCD1DD0C}"
-	ProjectSection(SolutionItems) = preProject
-		src\Foundation\Foundation.Folders.module.json = src\Foundation\Foundation.Folders.module.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{FF076BFA-A2AA-453D-A66C-68A05D41798E}"
-	ProjectSection(SolutionItems) = preProject
-		src\Project\Project.Folders.module.json = src\Project\Project.Folders.module.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{55F115AF-7D39-4CE0-BB2C-8129302B61F8}"
-	ProjectSection(SolutionItems) = preProject
-		src\Project\Common\Project.Common.module.json = src\Project\Common\Project.Common.module.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styleguide", "styleguide", "{5C6F3748-A237-4968-BA59-EF651D016C43}"
-	ProjectSection(SolutionItems) = preProject
-		src\Sites\styleguide\Sites.styleguide.module.json = src\Sites\styleguide\Sites.styleguide.module.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "www", "www", "{11007957-124D-4534-8D88-53D119344E3E}"
-	ProjectSection(SolutionItems) = preProject
-		src\Sites\www\Sites.www.module.json = src\Sites\www\Sites.www.module.json
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.ScribanToReact", "src\Feature\ScribanToReact\website\Feature.ScribanToReact.csproj", "{05E33F29-BCCA-4154-9A25-20C7896BF2BF}"
 EndProject
@@ -59,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05E33F29-BCCA-4154-9A25-20C7896BF2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05E33F29-BCCA-4154-9A25-20C7896BF2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E33F29-BCCA-4154-9A25-20C7896BF2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,10 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{816F099C-E14B-4468-9E34-87F993C6484D} = {55F115AF-7D39-4CE0-BB2C-8129302B61F8}
-		{55F115AF-7D39-4CE0-BB2C-8129302B61F8} = {FF076BFA-A2AA-453D-A66C-68A05D41798E}
-		{5C6F3748-A237-4968-BA59-EF651D016C43} = {FF076BFA-A2AA-453D-A66C-68A05D41798E}
-		{11007957-124D-4534-8D88-53D119344E3E} = {FF076BFA-A2AA-453D-A66C-68A05D41798E}
 		{05E33F29-BCCA-4154-9A25-20C7896BF2BF} = {A72954EE-FC46-4F3D-8537-AE808CA74CA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
