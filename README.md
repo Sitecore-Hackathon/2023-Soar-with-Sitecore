@@ -26,8 +26,8 @@ automatically convereted to a TypeScript (tsx) file.
 
 In a Sitecore XP Instance
 - Install the SXA module
-- Using the package installation wizard, install the [Scriban Export module package](#sitecore_packages\Hackathon-Content-Package-1.0.zip)
-- Using the package installation wizard, install the [Demo site package](#sitecore_packages\Hackathon-Content-Package-1.0.zip)
+- Using the package installation wizard, install the [Scriban Export module package](https://github.com/Sitecore-Hackathon/2023-Soar-with-Sitecore/blob/main/sitecore_packages/Hackathon-Content-Package-1.0.zip)
+- Using the package installation wizard, install the [Demo site package](https://github.com/Sitecore-Hackathon/2023-Soar-with-Sitecore/blob/main/sitecore_packages/Hackathon-Content-Package-1.0.zip)
 
 
 ## Usage instructions
