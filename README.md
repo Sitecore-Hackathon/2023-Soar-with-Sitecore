@@ -62,6 +62,9 @@ Root nodes:
 
 ### Contents of Scriban Export module package
 - Feature.ScribanExport.dll
+- System.Text.Json.dll
+- Feature.ScribanToReact.json
+- /React Templates/tsx - template.txt
 - SPE.config
 - items
 - - /sitecore/system/Modules/PowerShell/Script Library/SXA/SXA - Scaffolding/Content Editor/Context Menu/Export Scriban Template
