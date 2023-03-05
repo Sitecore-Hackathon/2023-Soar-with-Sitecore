@@ -26,7 +26,7 @@ automatically convereted to a TypeScript (tsx) file.
 
 In a Sitecore XP Instance
 - Install the SXA module
-- Using the package installation wizard, install the [Scriban Export module package](#sitecore_packages\2023 Hackathon - Headless Content-1.0.zip)
+- Using the package installation wizard, install the [Scriban Export module package](#sitecore_packages\Hackathon-Content-Package-1.0.zip)
 - Using the package installation wizard, install the [Demo site package](#sitecore_packages\Hackathon-Content-Package-1.0.zip)
 
 
